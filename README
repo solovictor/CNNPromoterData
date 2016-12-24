@@ -1,0 +1,19 @@
+This directory contains bacterial and eukaryotic promoter and non-promoter sequences studied in
+ Recognition of Prokaryotic and Eukaryotic Promoters Using Convolutional Deep Learning Neural Networks
+      Ramzan Umarov, Victor Solovyev (PLOS One, 2016).
+  Bacterial non-promoter sequences were taken from the corresponding genome sequences: we randomly selected 
+fragments of protein-coding genes and took their opposite (non-coding) chain sequences. 
+Escherichia coli σ70 promoter sequences were extracted from manually curated RegulonDB [1].
+Bacillus subtilis promoters were taken from a collection described in [2].
+  As Human, mouse and Arabidopsis non-promoter sequences (size 251 nt) we used random fragments of their genes 
+located after first exons.  Eukaryotic promoter sequence regions were extracted from the well-known EPDnew database [3].
+  Also additional mouse TATA promoters set was extracted from DBTSS [4]. 
+[1] Gama-Castro S, Salgado H, Santos-Zavaleta A, Ledezma-Tejeida D. et al. (2016) RegulonDB version 9.0: 
+high-level integration of gene regulation, coexpression, motif clustering and beyond. Nucleic Acids Res. 44(D1), D133-143.
+[2] Ishii T., Yoshida K., Terai G., Fijita Y., Nakai K. (2001) DBTBS: a database of Bacillus subtilis promoters 
+and transcription factors. Nucl. Acids Res., 29, 1, 278-280.
+[3] 31.	Dreos, R., Ambrosini, G., Périer, R., Bucher, P. (2013) EPD and EPDnew, high-quality promoter resources in the i
+next-generation sequencing era. Nucleic Acids Research, 41(Database issue): D157-64.
+[4] Suzuki A, Wakaguri H, Yamashita R, Kawano S, Tsuchihara K, Sugano S, Suzuki Y, Nakai K. 
+DBTSS as an integrative platform for transcriptome, epigenome and genome sequence variation 
+data. Nucleic Acids Res. 2015 (Database issue) 43 (D1): D1-D5.
